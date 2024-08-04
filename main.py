@@ -10,7 +10,7 @@ from google.cloud import bigquery
 def hello_world():
     """Example Hello World route."""
 
-    return f"Hello Google Cloud!"
+    return f"Hello Google Cloud from COEN6311!"
 
 @app.route("/event_looks", methods=['POST'])
 def event_looks():
